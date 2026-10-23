@@ -1,0 +1,27 @@
+Package: gpqyouden
+Title: Generalized Pivotal Quantity Inference for the Youden Index
+Version: 0.1.0
+Authors@R: person("Juan José", "Olmedilla Arregui",
+    email = "juanjo@olmedilla.com", role = c("aut", "cre"))
+Description: Monte Carlo simulation study of generalized pivotal quantity
+    (GPQ) based confidence intervals for the Youden index and its optimal
+    cut-point, following Lai, Tian and Schisterman (2012)
+    <doi:10.1016/j.csda.2010.11.023>.
+License: MIT + file LICENSE
+URL: https://github.com/jolmedilla/gpqyouden
+BugReports: https://github.com/jolmedilla/gpqyouden/issues
+Encoding: UTF-8
+Imports:
+    parallel,
+    kableExtra,
+    dplyr,
+    tidyr,
+    stats,
+    utils
+Suggests:
+    foreach,
+    doParallel,
+    roxygen2,
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
