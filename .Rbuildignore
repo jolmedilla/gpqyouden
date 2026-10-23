@@ -2,3 +2,4 @@
 ^cran-comments\.md$
 ^\.gitignore$
 ^\.github$
+^CRAN-SUBMISSION$
