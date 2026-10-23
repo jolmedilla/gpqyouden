@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![R-CMD-check](https://github.com/jolmedilla/gpqyouden/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jolmedilla/gpqyouden/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `gpqyouden` provides exact, simulation-based confidence intervals for the
